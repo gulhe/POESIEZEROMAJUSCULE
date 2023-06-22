@@ -20,8 +20,8 @@ D4AILLEURS LE DEV A TROUV2 TR7S MALIN DE METTRE SA VARIABLE 0
         CASE0COCHER.setAttribute("CHECKED", "TRUE");
         document.body.appendChild(CASE0COCHER);
         CASE0COCHER.style.position = `absolute`;
-        CASE0COCHER.style.bottom = `0`;
-        CASE0COCHER.style.left = `0`;
+        CASE0COCHER.style.bottom = `5SVMIN`; // HA BAH C4EST RIGOLO 9A HEIN
+        CASE0COCHER.style.left = `9SVMIN`; // 9A LUI FAIT UN ZEN 0 L4AUTRE /*MORT DE RIRE*/
         setInterval(() => {
             if (CASE0COCHER.checked) {
                 location.reload();
